@@ -1,0 +1,18 @@
+{
+  "Resources": {
+    "MyFirstBucketB8884501": {
+      "Type": "AWS::S3::Bucket",
+      "Properties": {
+        "BucketName": "first-cdk-bucket",
+        "VersioningConfiguration": {
+          "Status": "Enabled"
+        }
+      },
+      "UpdateReplacePolicy": "Retain",
+      "DeletionPolicy": "Retain",
+      "Metadata": {
+        "aws:cdk:path": "HelloCdkStack/MyFirstBucket/Resource"
+      }
+    }
+  }
+}

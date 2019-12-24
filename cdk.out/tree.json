@@ -1,0 +1,42 @@
+{
+  "version": "tree-0.1",
+  "tree": {
+    "id": "App",
+    "path": "",
+    "children": {
+      "Tree": {
+        "id": "Tree",
+        "path": "Tree"
+      },
+      "HelloCdkStack": {
+        "id": "HelloCdkStack",
+        "path": "HelloCdkStack",
+        "children": {
+          "MyFirstBucket": {
+            "id": "MyFirstBucket",
+            "path": "HelloCdkStack/MyFirstBucket",
+            "children": {
+              "Resource": {
+                "id": "Resource",
+                "path": "HelloCdkStack/MyFirstBucket/Resource",
+                "attributes": {
+                  "aws:cdk:cloudformation:type": "AWS::S3::Bucket",
+                  "aws:cdk:cloudformation:props": {
+                    "bucketName": "first-cdk-bucket",
+                    "versioningConfiguration": {
+                      "status": "Enabled"
+                    }
+                  }
+                }
+              },
+              "Notifications": {
+                "id": "Notifications",
+                "path": "HelloCdkStack/MyFirstBucket/Notifications"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
