@@ -19,7 +19,7 @@
             "type": "aws:cdk:logicalId",
             "data": "MyFirstBucketB8884501",
             "trace": [
-              "new Bucket (/private/var/folders/yj/gr8yld257v76bw96lf2qbjs80000gr/T/jsii-kernel-OFSdd5/node_modules/@aws-cdk/aws-s3/lib/bucket.js:366:26)",
+              "new Bucket (/private/var/folders/yj/gr8yld257v76bw96lf2qbjs80000gr/T/jsii-kernel-QGKuXl/node_modules/@aws-cdk/aws-s3/lib/bucket.js:366:26)",
               "/usr/local/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7761:49",
               "Kernel._wrapSandboxCode (/usr/local/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:8221:20)",
               "Kernel._create (/usr/local/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7761:26)",
